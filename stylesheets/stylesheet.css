@@ -465,5 +465,10 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
+  
+  #social-buttons button {
+    color:white;
 }
+  .btn-twitter{
+    background-color: #00acee;
+  }
