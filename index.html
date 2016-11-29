@@ -59,6 +59,21 @@
       <p>22/9/2016: The hens arrived.</p>
     </div>
 
+      <script>
+        function openChicken(evt, TabName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("evt");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+       }
+       tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " w3-red";
+        }
+    </script>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
