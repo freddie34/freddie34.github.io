@@ -163,7 +163,7 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 0;
+  border: none;
   border-radius: 25px;
 
 }
@@ -179,6 +179,7 @@ p img {
   vertical-align: middle;
   text-align: center;
   border: none;
+  border-radius: 25px;
 }
 
 pre, code {
