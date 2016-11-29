@@ -31,6 +31,9 @@ time, mark, audio, video {
 
 #header_wrap{
   background: url('../chickenbackground2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 /* HTML5 display-role reset for older browsers */
