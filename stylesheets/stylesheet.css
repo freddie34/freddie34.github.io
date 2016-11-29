@@ -29,8 +29,8 @@ time, mark, audio, video {
   vertical-align: bottom;
 }
 
-header{
-  color: black;
+#header_wrap{
+  background-color: black;
 }
 
 /* HTML5 display-role reset for older browsers */
