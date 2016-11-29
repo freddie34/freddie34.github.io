@@ -68,7 +68,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.text{
+#maintext{
     border: 30px;
   padding: 10px;
 }
