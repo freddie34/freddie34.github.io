@@ -161,7 +161,7 @@ img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
+  padding: 20px;
   margin: 10px 0 10px 0;
   border: 6px;
   border-color:rgb(0,0,0);
@@ -176,7 +176,7 @@ img {
 p img {
   display: inline;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   vertical-align: middle;
   text-align: center;
   border: 6px;
