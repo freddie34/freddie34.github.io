@@ -163,6 +163,10 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
+#centeralign{
+  border: 25px solid #FFD700;
+}
+
 p img {
   display: inline;
   margin: 0;
