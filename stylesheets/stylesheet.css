@@ -56,7 +56,7 @@ chicken{
 chickjpg{
   display: block;
   margin: auto;
-  vertical-align: top;
+  vertical-align: text-bottom;
 }
 
 body {
