@@ -37,7 +37,7 @@
     
     <ul class="tab">
        <li><a href="javascript:void(0)" class="tablinks" onclick="openChicken(event, 'Squad Profiles')">Squad Profiles</a></li>
-      <li><a href="javascript:void(0)" class="tablinks" onclick="openChicken(event, 'Hen Welfare')">Hen Welfare</a></li>
+      <li><a href="javascript:void(0)" class="tablinks" onclick="openChicken(event, 'Hen Welfare')">Hen Welfare</a> <a href="#Hen Welfare"></a> </li>
       <li><a href="javascript:void(0)" class="tablinks" onclick="openChicken(event, '22A Diaries')">22A Diaries</a></li>
     </ul>
         
@@ -59,21 +59,7 @@
       <p>22/9/2016: The hens arrived.</p>
     </div>
 
-      <script>
-        function openChicken(evt, TabName) {
-        var i, x, tablinks;
-        x = document.getElementsByClassName("evt");
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-       }
-       tablinks = document.getElementsByClassName("tablink");
-        for (i = 0; i < x.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " w3-red";
-        }
-    </script>
+      
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -108,24 +94,14 @@
       </section>
     </div>
       
+      <a id="Hen Welfare">
+      
       <h4><strong>Hen Welfare</strong></h4>
       <p>There have been various consultations with The British Hen Welfare Trust from where the 2 rescued chickens were collected. THe integration of the two new chickens into the already established friendship of Cluck and Mags took its time. Various isolation methods of different chickens were carried out and Joe was ruthlessly pecked until finally, two months later, they are living in relative harmony.</p>
-        
+       
+      </a>
+      
       <h4><strong>22A Diaries</strong></h4>
-      <p><strong>15/09/2016: Then hens have arrived</strong></p>
-      <p>A hired mini van was required to bring the first two dreamy hens in their coop from their old home with Jenny who was leaving Cambridge</p>
-      
-      <p><strong>16/09/2016: We have an egg!</strong></p>
-      <p>The first egg was laid in their brand new home!
-        
-      <p><strong>22/09/2016: Peace Disturbed</strong></p>
-      <p>The 22nd September saw a long drive into rural Essex and the British Hen Welfare Trust. IT was not known what was awaiting the unsuspecting fiat punto as it pulled into the farm. No one is quite sure what happened next but 2 hours later 22A had 2 new, rather dishevveled residents: Jimmy and Joe had arrived, and the troubles began.</p>
-      
-      <p><strong>01/10/2016: Feathers</strong></p>
-      <p>Joe has sprouted feathers!!!</p>
-      
-      <p><strong>04/10/2016: Plucking hell!</strong></p>
-      <p>Mags the bully has plucked out all of Joe's new feathers. Apparently new feathers are full of protein and delicious to other chickens</p>
       
       <form role="form">
         <label for="email">Advice for any budding chicken owners. Find out more</label>
