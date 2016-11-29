@@ -53,6 +53,12 @@ chicken{
   width: 20%
 }
 
+chickjpg{
+  display: block;
+  margin: auto;
+  vertical-align: bottom;
+}
+
 body {
   box-sizing: border-box;
   color:#373737;
