@@ -30,7 +30,7 @@ time, mark, audio, video {
 }
 
 #header_wrap{
-  background: black;
+  background: url('../chickenbackground2.jpg');
 }
 
 /* HTML5 display-role reset for older browsers */
